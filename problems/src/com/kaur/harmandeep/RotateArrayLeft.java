@@ -15,6 +15,7 @@ public class RotateArrayLeft {
 		// int [] nums = {1,2,3,4};
 		// int [] nums = {1,2,3,4,5,6,7};
 		int[] nums = new int[]{ -1, -100, 3, 99 };
+		//int[] nums = new int[]{};
 		int k = 2;
 		rotate(nums, k);
 		for(int n : nums){
